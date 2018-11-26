@@ -1,0 +1,57 @@
+// multiple
+// lines of
+// comments
+{
+	// this is a comment
+	string: hello
+	boolean: true
+	float: 1234.56
+	int: 789
+
+	ipv6:123:abc: :other:address
+	/path/to/file: /another/path
+	regex: /\n+\s*$/
+
+	ⓤnicode: ⒶⒷⒸ ⒹⒺ
+
+	nestedMap: {
+		a1: bbbb
+		b2: this is a sentence
+		list: [
+			inner
+			values
+		]
+	}
+
+	list: [
+	    123.45
+		true
+
+		I am a string
+	]
+
+	rows: [
+		{
+			name: Alice 
+			job: Developer
+		}
+		{
+			name: Bob 
+			job: Cat
+		}
+	]
+
+	mlString: `
+
+		hello
+		world
+
+		  indent 2
+		    indent 4
+
+		baseline
+
+	`
+
+	lastKey: bye
+}
