@@ -40,23 +40,22 @@ JCON is a configuration format that keeps the familiarity of JSON, but requires 
 ## Install
 
 ```
-  npm install jcon-parser
+npm install jcon-parser
 ```
 
 ## Usage
 
 ```
 
-  let JCON = require('JCON');
+let jcon = require('jcon-parser');
 
-  JCON.parseFile('yourFile.jcon', (config)=>{
-        console.log(config);
-  });
+jcon.parseFile('yourFile.jcon', (config)=>{
+      console.log(config);
+});
    
-  // or...
+// or...
   
-  let config = JCON.parse(jconString);
-
+let config = jcon.parse(jconString);
 
 ```
 
