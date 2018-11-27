@@ -1,0 +1,28 @@
+{
+  "name": "jcon-parser",
+  "version": "1.0.0",
+  "description": "JCON configuration parser",
+  "main": "JCON.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "cd tests && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelesko/jcon-js.git"
+  },
+  "keywords": [
+    "jcon",
+    "json",
+    "config",
+    "configuration"
+  ],
+  "author": "Joe Lesko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joelesko/jcon-js/issues"
+  },
+  "homepage": "https://github.com/joelesko/jcon-js#readme"
+}
