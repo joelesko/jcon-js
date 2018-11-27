@@ -41,7 +41,6 @@ JCON is a configuration format that keeps the familiarity of JSON, but requires 
 
 ```
   npm install jcon-parser
-
 ```
 
 ## Usage
